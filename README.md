@@ -60,7 +60,6 @@ options:
   -l _HASHLIST    Hash file path (i.e. /root/hashes.txt)
   -d _DICTIONARY  Dictionary file path (i.e. /root/rockyou.txt)
   -t _HASH_TYPE   Hash type [md5 | sha1 | sha256 | sha512]
-
 ```
 
 MD5 Example: ```python3 hashish.py -t md5 -l ./hashes.txt -d /usr/share/wordlists/rockyou.txt```
